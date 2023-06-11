@@ -4,9 +4,9 @@
 }
 
 body {
-  color: #2b2c48;
+  color: #2e373a;
   font-family: "Jost", sans-serif;
-  background-image: url(https://unsplash.com/photos/HC66_Xm8d-M);
+  background-image: url(https://images.unsplash.com/photo-1686434692248-274f1f6d5c98?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80);
   
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,7 +34,7 @@ body {
 }
 
 .card[data-state="#about"] {
-  height: 450px;
+  height: 500px;
 }
 .card[data-state="#about"] .card-main {
   padding-top: 0;
@@ -42,10 +42,11 @@ body {
 
 .card[data-state="#contact"] {
   height: 430px;
+  width: 400px;
 }
 
 .card[data-state="#experience"] {
-  height: 550px;
+  height: 400px;
 }
 
 .card.is-active .card-header {
@@ -107,7 +108,7 @@ body {
 .card-avatar {
   width: 100px;
   height: 100px;
-  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 5px 5px rgba(49, 73, 77, 0.8);
   border-radius: 50%;
   -o-object-position: center;
      object-position: center;
@@ -165,7 +166,7 @@ body {
 .card-desc {
   line-height: 1.6;
   color: #636b6f;
-  font-size: 14px;
+  font-size: 11px;
   margin: 0;
   font-weight: 400;
   font-family: "DM Sans", sans-serif;
@@ -231,7 +232,7 @@ body {
 }
 .card-buttons button.is-active, .card-buttons button:hover {
   color: #2b2c48;
-  border-bottom: 3px solid #8a84ff;
+  border-bottom: 3px solid #198bc0;
   background: linear-gradient(to bottom, rgba(127, 199, 231, 0) 0%, rgba(207, 204, 255, 0.2) 44%, rgba(211, 226, 255, 0.4) 100%);
 }
 
@@ -268,7 +269,7 @@ body {
   position: relative;
 }
 .card-timeline:after {
-  background: linear-gradient(to top, rgba(134, 214, 243, 0) 0%, #516acc 100%);
+  background: linear-gradient(to top, rgba(134, 214, 243, 0) 0%, #198bc0 100%);
   content: "";
   left: 42px;
   width: 2px;
@@ -302,7 +303,7 @@ body {
   text-indent: -35px;
   border-radius: 50%;
   color: rgba(134, 134, 134, 0.7);
-  background: linear-gradient(to bottom, #a0aee3 0%, #516acc 100%);
+  background: linear-gradient(to bottom, #a0aee3 0%, #198bc0 100%);
 }
 
 .card-item-title {
@@ -347,7 +348,7 @@ body {
 .contact-me {
   border: 0;
   outline: none;
-  background: linear-gradient(to right, rgba(83, 200, 239, 0.8) 0%, rgba(81, 106, 204, 0.8) 96%);
+  background: linear-gradient(to right, rgba(61, 119, 138, 0.8) 0%, rgba(60, 88, 97, 0.8) 96%);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
   color: #fff;
   padding: 12px 16px;
